@@ -8,7 +8,7 @@ action nome_da_ação
 	estado_corrente estado_sucessor probabilidade_da_ação descartar
 end_action
 
-3. O custo de cada par estado a��o.
+3. O custo de cada par estado ação.
 
 4. O estado inicial.
 

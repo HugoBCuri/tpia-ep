@@ -1,0 +1,12 @@
+'robot-at-x13y20': {
+
+  'move-south': [{'toState': 'robot-at-x13y19', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0}, {'toState': 'robot-at-x13y20', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0}],
+
+  'move-north': [{'toState': 'robot-at-x13y20', 'probability': 1.0, 'discard': 1.0, 'cost': 1.0}],
+
+  'move-west': [{'toState': 'robot-at-x12y20', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0}, {'toState': 'robot-at-x13y20', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0}],
+
+  'move-east': [
+    {'toState': 'robot-at-x14y20', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0},
+    {'toState': 'robot-at-x13y20', 'probability': 0.5, 'discard': 0.5, 'cost': 1.0}]
+},
