@@ -1,16 +1,10 @@
 import reader
 import value
-import policy
 
 fileName = "TestesGrid/RandomGoalInitialState/navigation_1.txt"
-# jsonFile = "TestesGrid/RandomGoalInitialState/navigation_1.net_politicas.json"
-
 print("###### {} ######".format(fileName))
 states, initialState, goalState = reader.readFile(fileName)
 value.run(states, initialState, goalState, 20)
-# policy.run(states, initialState, goalState, reader.readInitialPolicyJson(jsonFile))
-
-
 
 fileName = "TestesGrid/RandomGoalInitialState/navigation_2.txt"
 print("###### {} ######".format(fileName))
