@@ -61,7 +61,7 @@ def printState(values, iteration, x = 21, y = 21):
               print("- ", end = '')
         print()
 
-def run(states, initialState, goalState):
+def run(states, initialState, goalState, length):
     values = initializeValues(states)
     n = 0
     start_time = time.time()
@@ -79,4 +79,4 @@ def run(states, initialState, goalState):
             break
     print("--- {} seconds ---".format(time.time() - start_time))
 
-    printState(values, n)
+    printState(values, n, length + 1, length + 1)
